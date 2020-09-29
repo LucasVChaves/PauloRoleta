@@ -1,0 +1,77 @@
+body{
+     font-family: 'Fira Code', monospace;
+     color: #bebebe;
+     text-align: center;
+     background-image: linear-gradient(180deg, #a5a5a5 0%, #e0e0e0);
+}
+
+h1{
+     color: #e4e4e4;
+     text-shadow: 3px 3px rgba(215, 215, 215, 0.5);
+}
+
+h2{
+     color: #e4e4e4;
+     text-shadow: 3px 3px rgba(215, 215, 215, 0.5);
+     font-size: x-large;
+}
+
+#wheelDiv{
+     width: 600px;
+     height: 600px;
+     margin: 0 auto;
+     position: relative;
+
+}
+
+
+.arrow{
+     position: absolute;
+     width: 80px;
+     top: -50;
+     z-index: 2;
+     margin-left: 168px;
+     transform: rotate(180deg);
+}
+
+.wheel{
+     width: 70%;
+     height: 70%;
+     margin-top: 50px;
+}
+
+.wheelButton{
+     display: block;
+     width: 250px;
+     margin-top: 25px;
+     margin-left: 173px;
+     cursor: pointer;
+}
+
+.wheelButton:hover{
+     opacity: 0.8;
+     transform: scale(1.05) perspective(1px);
+}
+
+.blur{
+     animation: blur 10s;
+}
+
+@keyframes blue {
+     0%{
+          filter: blur(1.5px);
+     }
+     
+     75%{
+          filter: blur(1.6px);
+     }
+
+     100%{
+          filter: blur(0px);
+     }
+}
+
+footer{
+     font-size: small;
+     color: #3a3a3a;
+}

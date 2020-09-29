@@ -1,0 +1,27 @@
+body{
+     font-family: 'Fira Code', monospace;
+     color: #ebebeb;
+     font-size: 15pt;
+     text-align: center;
+     text-shadow: 2px 2px #5a5a5a;
+     background-image: linear-gradient(90deg, #b9b9b9, #919191);
+}
+
+h1{  
+     font-size: 45pt;
+     text-shadow: 4px 4px #5a5a5a;
+}
+
+h2{
+     font-size: 25pt;
+     text-shadow: 3px 3px #5a5a5a;
+}
+
+h3{
+     font-size: 20pt;
+     text-shadow: 3px 3px #5a5a5a;
+}
+
+.main{
+     position: center;
+}

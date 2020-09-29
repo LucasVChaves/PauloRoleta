@@ -1,0 +1,14 @@
+{
+  "name": "paulo-roleta",
+  "version": "0.0.1",
+  "description": "Roleta do AgiotaCraft",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "author": "Lucas Chaves",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.1"
+  }
+}

@@ -13,7 +13,7 @@ function boot(){
                     {
                          label:'Minérios',
                          click: () => {
-                              window.loadURL(`file://${__dirname}/index.html`);
+                              window.loadURL(`file://${__dirname}/src/index.html`);
                          }
                     },
                     {
@@ -22,7 +22,7 @@ function boot(){
                     {
                          label:'Multiplicadores',
                          click: () => {
-                              window.loadURL(`file://${__dirname}/multiplierWin.html`);
+                              window.loadURL(`file://${__dirname}/src/multiplierWin.html`);
                          }
                     }
                ]
@@ -34,7 +34,7 @@ function boot(){
                     {
                          label:'Sobre',
                          click: () => {
-                              window.loadURL(`file://${__dirname}/about.html`)
+                              window.loadURL(`file://${__dirname}/src/about.html`)
                          }
                     },
                     {
@@ -85,7 +85,7 @@ function boot(){
           darkTheme: true
      });
      
-     window.loadURL(`file://${__dirname}/index.html`);
+     window.loadURL(`file://${__dirname}/src/index.html`);
 }
 
 app.on('ready', boot);

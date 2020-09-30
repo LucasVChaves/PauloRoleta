@@ -25,3 +25,9 @@ h3{
 .main{
      position: center;
 }
+
+footer{
+     font-size: small;
+     color: #555454;
+     text-shadow: 0px 0px;
+}

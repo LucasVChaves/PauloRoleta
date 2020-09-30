@@ -1,6 +1,6 @@
 {
   "name": "paulo-roleta",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Roleta do AgiotaCraft",
   "main": "main.js",
   "scripts": {

@@ -81,7 +81,7 @@ function boot(){
           width: 1200,
           height: 950,
           resizable: true,
-          icon: 'icon.png',
+          icon: './src/img/icon.ico',
           darkTheme: true
      });
      

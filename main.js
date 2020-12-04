@@ -70,6 +70,13 @@ function boot(){
                click: () =>{
                     electron.shell.openExternal("https://www.youtube.com/watch?v=DHWH2Jt3s0U");
                }
+          },
+
+          {
+               label:"Autor",
+               click: () => {
+                    electron.shell.openExternal("https://github.com/LucasVChaves");
+               }
           }
      ];
 
